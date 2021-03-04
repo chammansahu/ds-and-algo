@@ -1,7 +1,7 @@
 //uses objects or sets to collect values/frquencies of values
 //often avoid nested loop or O(n^2) operation  with rrays/strings
 //refactor frequecy counter
-
+//complexity O(n)
 const same=(arr1,arr2)=>{
    if(arr1.length!=arr2.length){
        return false;
